@@ -12,11 +12,11 @@
   "license": "Apache-2.0",
   "main": "lib/dsengineer-css.js",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "repository": {
     "type": "git",
