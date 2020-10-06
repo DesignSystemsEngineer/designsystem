@@ -1,0 +1,35 @@
+{
+  "name": "@dsengineer/tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for the Design Systems Engineer design system",
+  "keywords": [
+    "tokens",
+    "design",
+    "system"
+  ],
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
+  "homepage": "https://github.com/DesignSystemsEngineer/designsystem/tree/master/packages/tokens#readme",
+  "license": "Apache-2.0",
+  "main": "lib/tokens.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesignSystemsEngineer/designsystem.git"
+  },
+  "scripts": {
+    "build": "style-dictionary build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/DesignSystemsEngineer/designsystem/issues"
+  },
+  "dependencies": {
+    "style-dictionary": "^2.10.1"
+  }
+}
