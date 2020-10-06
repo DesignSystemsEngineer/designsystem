@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.2.2...v1.3.0) (2020-10-06)
+
+### Features
+
+- added support for custom classes on components ([efd5baf](https://github.com/DesignSystemsEngineer/designsystem/commit/efd5baf76d9bf85f7d5f3b1a584976e99d15058b))
+
 ## [1.2.2](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.2.1...v1.2.2) (2020-10-06)
 
 ### Bug Fixes
