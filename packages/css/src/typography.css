@@ -54,3 +54,7 @@
   font-family: var(--dse-heading-font-family);
   color: var(--dse-color-base-gray-800);
 }
+.dse-body {
+  font-family: var(--dse-body-font-family);
+  color: var(--dse-color-base-gray-800);
+}

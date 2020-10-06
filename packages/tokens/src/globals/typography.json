@@ -1,6 +1,7 @@
 {
   "futura-font-family": { "value": "futura-pt, sans-serif" },
   "heading-font-family": { "value": "{futura-font-family.value}" },
+  "body-font-family": { "value": "{futura-font-family.value}" },
 
   "weight-thin": { "value": "100" },
   "weight-ultra-light": { "value": "200" },

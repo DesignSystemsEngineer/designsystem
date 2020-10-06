@@ -39,5 +39,9 @@
   "devDependencies": {
     "postcss-nested": "^5.0.1",
     "rollup-plugin-postcss": "^3.1.8"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "0527412a5efaa1b81ac8f0082e22b8dadb00e86a"
 }
