@@ -1,0 +1,45 @@
+{
+  "name": "@dsengineer/svelte",
+  "version": "1.0.0",
+  "description": "Svelte implementation for the Design Systems Engineer design system",
+  "keywords": [
+    "svelte",
+    "design",
+    "system"
+  ],
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
+  "homepage": "https://github.com/DesignSystemsEngineer/designsystem/tree/master/packages/dsengineer-svelte#readme",
+  "license": "Apache-2.0",
+  "main": "lib/dsengineer-svelte.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DesignSystemsEngineer/designsystem.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/DesignSystemsEngineer/designsystem/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/svelte": "^6.0.26",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1",
+    "svelte": "^3.29.0",
+    "svelte-loader": "^2.13.6"
+  },
+  "dependencies": {}
+}
