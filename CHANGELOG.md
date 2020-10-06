@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.2.0...v1.2.1) (2020-10-06)
+
+### Bug Fixes
+
+- added css src directory to npm ([5b6a03c](https://github.com/DesignSystemsEngineer/designsystem/commit/5b6a03cb4779015e7376bc48ec6b4b7e9cb25af9))
+
 # [1.2.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.1.0...v1.2.0) (2020-10-06)
 
 ### Features
