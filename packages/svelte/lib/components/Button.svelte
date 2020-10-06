@@ -6,4 +6,4 @@
   @import "@dsengineer/css/src/button.css";
 </style>
 
-<button class="dse-button">{label}</button>
+<button class={`${$$props.class || ''} dse-button`}>{label}</button>
