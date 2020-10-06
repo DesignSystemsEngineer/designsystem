@@ -6,7 +6,8 @@
   "scripts": {
     "fix:check": "prettier --config ./.prettierrc --ignore-path ./.prettierignore --check '**/*.{js,svelte,css,html,json}'",
     "fix:write": "prettier --config ./.prettierrc --ignore-path ./.prettierignore --write '**/*.{js,svelte,css,html,json}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "lerna bootstrap"
   },
   "repository": {
     "type": "git",

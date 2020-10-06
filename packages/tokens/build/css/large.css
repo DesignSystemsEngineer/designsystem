@@ -1,0 +1,65 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 06 Oct 2020 07:10:56 GMT
+ */
+
+:root {
+  --dse-size-0: 0px;
+  --dse-size-10: 1px;
+  --dse-size-25: 2px;
+  --dse-size-40: 4px;
+  --dse-size-50: 5px;
+  --dse-size-65: 6px;
+  --dse-size-75: 8px;
+  --dse-size-85: 9px;
+  --dse-size-100: 10px;
+  --dse-size-115: 11px;
+  --dse-size-125: 13px;
+  --dse-size-130: 14px;
+  --dse-size-150: 15px;
+  --dse-size-160: 16px;
+  --dse-size-175: 18px;
+  --dse-size-200: 20px;
+  --dse-size-225: 22px;
+  --dse-size-250: 25px;
+  --dse-size-300: 30px;
+  --dse-size-350: 35px;
+  --dse-size-400: 40px;
+  --dse-size-450: 45px;
+  --dse-size-500: 50px;
+  --dse-size-550: 56px;
+  --dse-size-600: 60px;
+  --dse-size-675: 68px;
+  --dse-size-700: 70px;
+  --dse-size-800: 80px;
+  --dse-size-900: 90px;
+  --dse-size-1000: 100px;
+  --dse-size-1200: 120px;
+  --dse-size-1250: 125px;
+  --dse-size-1600: 160px;
+  --dse-size-1700: 170px;
+  --dse-size-2000: 200px;
+  --dse-size-2400: 240px;
+  --dse-size-3000: 300px;
+  --dse-size-3400: 340px;
+  --dse-size-3600: 360px;
+  --dse-size-4600: 460px;
+  --dse-size-5000: 500px;
+  --dse-size-6000: 600px;
+  --dse-font-size-50: 13px;
+  --dse-font-size-75: 15px;
+  --dse-font-size-100: 17px;
+  --dse-font-size-200: 19px;
+  --dse-font-size-300: 22px;
+  --dse-font-size-400: 24px;
+  --dse-font-size-500: 27px;
+  --dse-font-size-600: 31px;
+  --dse-font-size-700: 34px;
+  --dse-font-size-800: 39px;
+  --dse-font-size-900: 44px;
+  --dse-font-size-1000: 49px;
+  --dse-font-size-1100: 55px;
+  --dse-font-size-1200: 62px;
+  --dse-font-size-1300: 70px;
+  --dse-font-size-base: 17px; /* the base size of the font */
+}

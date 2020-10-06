@@ -1,0 +1,6 @@
+.dse-input {
+  border-color: var(--dse-color-base-gray-800);
+  border-radius: var(--dse-size-40);
+  border: var(--dse-size-10) solid;
+  padding: var(--dse-size-40);
+}

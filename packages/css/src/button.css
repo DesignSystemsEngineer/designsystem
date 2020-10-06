@@ -1,0 +1,24 @@
+.dse-button {
+  color: var(--dse-color-base-gray-700);
+  font-weight: var(--dse-weight-bold);
+  font-size: var(--dse-font-size-100);
+  background: var(--dse-color-base-gray-50);
+  border: 2px solid;
+  border-color: var(--dse-color-base-gray-700);
+  border-radius: var(--dse-size-200);
+  padding: 0 var(--dse-size-200);
+  box-sizing: border-box;
+  height: var(--dse-size-400);
+}
+.dse-button:hover {
+  background: var(--dse-color-base-gray-700);
+  color: var(--dse-color-base-gray-50);
+}
+.dse-button:active {
+  background: var(--dse-color-base-gray-800);
+  border-color: var(--dse-color-base-gray-800);
+  color: var(--dse-color-base-gray-50);
+}
+.dse-button:focus {
+  outline: none;
+}

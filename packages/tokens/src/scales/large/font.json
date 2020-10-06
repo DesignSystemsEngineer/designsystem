@@ -1,0 +1,25 @@
+{
+  "font": {
+    "size": {
+      "base": {
+        "value": "{font.size.100.value}",
+        "comment": "the base size of the font"
+      },
+      "50": { "value": "13px" },
+      "75": { "value": "15px" },
+      "100": { "value": "17px" },
+      "200": { "value": "19px" },
+      "300": { "value": "22px" },
+      "400": { "value": "24px" },
+      "500": { "value": "27px" },
+      "600": { "value": "31px" },
+      "700": { "value": "34px" },
+      "800": { "value": "39px" },
+      "900": { "value": "44px" },
+      "1000": { "value": "49px" },
+      "1100": { "value": "55px" },
+      "1200": { "value": "62px" },
+      "1300": { "value": "70px" }
+    }
+  }
+}
