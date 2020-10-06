@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.2.1...v1.2.2) (2020-10-06)
+
+### Bug Fixes
+
+- updated GridItem ([112acb6](https://github.com/DesignSystemsEngineer/designsystem/commit/112acb63cde8bfc70114fc48c61de09494b6d4a0))
+
 # [1.2.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.1.0...v1.2.0) (2020-10-06)
 
 ### Features
