@@ -12,12 +12,11 @@
   "license": "Apache-2.0",
   "main": "build/css/variables.css",
   "directories": {
-    "lib": "build",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
-    "src",
-    "build"
+    "properties",
+    "lib"
   ],
   "repository": {
     "type": "git",

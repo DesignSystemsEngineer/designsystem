@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  @import "@dsengineer/css/src/typography.css";
+  @import "@dsengineer/css/lib/typography.css";
 </style>
 
 {#if size == 'XXXL'}

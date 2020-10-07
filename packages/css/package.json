@@ -12,18 +12,16 @@
   "license": "Apache-2.0",
   "main": "lib/dsengineer-css.js",
   "directories": {
-    "lib": "src",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
-    "src"
+    "lib"
   ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/DesignSystemsEngineer/designsystem.git"
   },
   "scripts": {
-    "build": "node build.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

@@ -14,12 +14,13 @@ function getStyleDictionaryConfig(source, destination) {
           "content/icon",
           "color/css",
         ],
-        buildPath: `build/css/`,
+        buildPath: `lib/`,
         prefix: "dse",
         files: [
           {
             destination: destination,
             format: "css/variables",
+            options: { showFileHeader: false },
           },
         ],
       },
@@ -32,17 +33,17 @@ console.log("Tokens build started...");
 [
   {
     name: "medium",
-    source: "src/scales/medium/*.json",
+    source: "properties/scales/medium/*.json",
     destination: "medium.css",
   },
   {
     name: "large",
-    source: "src/scales/large/*.json",
+    source: "properties/scales/large/*.json",
     destination: "large.css",
   },
   {
     name: "globals",
-    source: "src/globals/**/*.json",
+    source: "properties/globals/**/*.json",
     destination: "globals.css",
   },
 ].map(function (tokenGroup) {

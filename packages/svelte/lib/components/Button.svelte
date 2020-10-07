@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  @import "@dsengineer/css/src/button.css";
+  @import "@dsengineer/css/lib/button.css";
 </style>
 
 <button class={`${$$props.class || ''} dse-button`}>{label}</button>

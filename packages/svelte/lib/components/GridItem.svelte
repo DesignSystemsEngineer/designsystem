@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  @import "@dsengineer/css/src/grid.css";
+  @import "@dsengineer/css/lib/grid.css";
 </style>
 
 <div class={`${$$props.class || ''} dse-grid__${colSpan}col`}>

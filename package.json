@@ -8,7 +8,8 @@
     "fix:write": "prettier --config ./.prettierrc --ignore-path ./.prettierignore --write '**/*.{js,svelte,css,html,json}'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "lerna bootstrap",
-    "deploy": "lerna run build && lerna run build-storybook && gh-pages -d packages/svelte/storybook-static"
+    "build": "lerna run build && lerna run build-storybook",
+    "deploy": "yarn run build && gh-pages -d packages/svelte/storybook-static"
   },
   "repository": {
     "type": "git",
