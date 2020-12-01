@@ -1,27 +1,33 @@
 {
-  "futura-font-family": { "value": "futura-pt, sans-serif" },
-  "heading-font-family": { "value": "{futura-font-family.value}" },
-  "body-font-family": { "value": "{futura-font-family.value}" },
-
-  "weight-thin": { "value": "100" },
-  "weight-ultra-light": { "value": "200" },
-  "weight-light": { "value": "300" },
-  "weight-regular": { "value": "400" },
-  "weight-medium": { "value": "500" },
-  "weight-semi-bold": { "value": "600" },
-  "weight-bold": { "value": "700" },
-  "weight-extra-bold": { "value": "800" },
-  "weight-black": { "value": "900" },
-
-  "style-regular": { "value": "normal" },
-  "style-italic": { "value": "italic" },
-
-  "letter-spacing-none": { "value": "0" },
-  "letter-spacing-small": { "value": "0.0125em" },
-  "letter-spacing-han": { "value": "0.05em" },
-  "letter-spacing-medium": { "value": "0.06em" },
-
-  "line-height-large": { "value": "1.7" },
-  "line-height-medium": { "value": "1.5" },
-  "line-height-small": { "value": "1.3" }
+  "source-sans-font-family": { "value": "'Source Sans Pro', sans-serif" },
+  "heading-font-family": { "value": "{source-sans-font-family.value}" },
+  "body-font-family": { "value": "{source-sans-font-family.value}" },
+  "font": {
+    "weight": {
+      "thin": { "value": "100" },
+      "ultra-light": { "value": "200" },
+      "light": { "value": "300" },
+      "regular": { "value": "400" },
+      "medium": { "value": "500" },
+      "semi-bold": { "value": "600" },
+      "bold": { "value": "700" },
+      "extra-bold": { "value": "800" },
+      "black": { "value": "900" }
+    },
+    "style": {
+      "regular": { "value": "normal" },
+      "italic": { "value": "italic" }
+    }
+  },
+  "letter-spacing": {
+    "none": { "value": "0" },
+    "small": { "value": "0.0125em" },
+    "han": { "value": "0.05em" },
+    "medium": { "value": "0.06em" }
+  },
+  "line-height": {
+    "large": { "value": "1.7" },
+    "medium": { "value": "1.5" },
+    "small": { "value": "1.3" }
+  }
 }

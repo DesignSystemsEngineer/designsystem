@@ -1,0 +1,7 @@
+{
+  "asset": {
+    "icon": {
+      "play": { "value": "assets/play-icon.svg" }
+    }
+  }
+}
