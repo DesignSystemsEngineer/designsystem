@@ -1,11 +1,17 @@
-# `dsengineer-svelte`
+# DSE Svelte
 
-> TODO: description
+Svelte implementation for the Design Systems Engineer design system.
 
-## Usage
+## Local development and testing
+
+1. Install dependencies:
 
 ```
-const dsengineerSvelte = require('dsengineer-svelte');
+yarn install
+```
 
-// TODO: DEMONSTRATE API
+1. Start storybook to view components and options:
+
+```
+yarn start
 ```
