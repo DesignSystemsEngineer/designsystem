@@ -24,7 +24,9 @@
   },
   "scripts": {
     "build": "node build.js",
-    "watch": "npm run build && chokidar  \"properties/**/*.json\" -c \"npm run build\""
+    "watch": "npm run build && chokidar  \"properties/**/*.json\" -c \"npm run build\"",
+    "prepare": "npm run build",
+    "start": "npm run watch"
   },
   "bugs": {
     "url": "https://github.com/DesignSystemsEngineer/designsystem/issues"

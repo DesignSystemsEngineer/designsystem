@@ -61,6 +61,9 @@
   --dse-course-summary-icon-margin-right: 0.5rem;
   --dse-course-summary-description-line-height: var(--dse-body-line-height);
   --dse-asset-icon-play: assets/play-icon.svg;
+  --dse-nav-font-family: var(--dse-source-sans-font-family);
+  --dse-nav-font-size: 1rem;
+  --dse-nav-box-shadow-color: var(--dse-color-gray-400);
   --dse-page-margin: 0;
   --dse-page-padding: 0;
   --dse-page-background-color: var(--dse-color-gray-default);

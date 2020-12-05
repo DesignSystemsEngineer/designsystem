@@ -1,0 +1,8 @@
+{
+  "nav": {
+    "description": "Buttons are clickable items used to perform an action.",
+    "font-family": { "value": "{source-sans-font-family.value}" },
+    "font-size": { "value": "1rem" },
+    "box-shadow-color": { "value": "{color.gray.400.value}" }
+  }
+}
