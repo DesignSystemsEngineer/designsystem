@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.3.0...v2.0.0) (2020-12-05)
+
+**Note:** Version bump only for package @dsengineer/tokens
+
 ## [1.2.2](https://github.com/DesignSystemsEngineer/designsystem/compare/v1.2.1...v1.2.2) (2020-10-06)
 
 ### Bug Fixes
