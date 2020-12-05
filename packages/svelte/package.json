@@ -1,6 +1,6 @@
 {
   "name": "@dsengineer/svelte",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Svelte implementation for the Design Systems Engineer design system",
   "keywords": [
     "svelte",
