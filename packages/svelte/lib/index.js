@@ -6,3 +6,4 @@ export { default as Heading } from "./components/Heading.svelte";
 export { default as Icon } from "./components/Icon.svelte";
 export { default as Input } from "./components/Input.svelte";
 export { default as Page } from "./components/Page.svelte";
+export { default as Nav } from "./components/Nav.svelte";
