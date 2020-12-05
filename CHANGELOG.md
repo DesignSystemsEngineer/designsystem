@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.0.2...v2.0.3) (2020-12-05)
+
+### Bug Fixes
+
+- path typo for svelte in pkg ([d6ac5fa](https://github.com/DesignSystemsEngineer/designsystem/commit/d6ac5fa8aa2992471f40f8f8a638db3224bf4222))
+
 ## [2.0.2](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.0.1...v2.0.2) (2020-12-05)
 
 ### Bug Fixes
