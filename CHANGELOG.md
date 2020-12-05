@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.1.0...v2.1.1) (2020-12-05)
+
+### Bug Fixes
+
+- added nav to svelte output ([7cebbd3](https://github.com/DesignSystemsEngineer/designsystem/commit/7cebbd3c762f57ecc5d96bbc1f6e25427f0e2601))
+
 # [2.1.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.0.3...v2.1.0) (2020-12-05)
 
 ### Features
