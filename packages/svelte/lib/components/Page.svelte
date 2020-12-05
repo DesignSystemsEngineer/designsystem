@@ -3,6 +3,6 @@
   @import "@dsengineer/css/lib/page.css";
 </style>
 
-<main class={`${$$props.class || ''} dse-body`}>
+<main class="dse-page ${$$props.class || ''}">
   <slot />
 </main>

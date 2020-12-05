@@ -5,7 +5,12 @@ export default {
   title: "Heading",
   component: Heading,
   argTypes: {
-    inputType: { size: "M" },
+    size: {
+      control: {
+        type: "select",
+        options: ["XXXL", "XXL", "XL", "L", "M", "S", "XS", "XXS"],
+      },
+    },
   },
 };
 

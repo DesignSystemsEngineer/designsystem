@@ -1,6 +1,8 @@
 const StyleDictionary = require("style-dictionary");
 const CSSVarsFormatter = require("./css-vars-formatter");
 
+const fs = require("fs");
+
 StyleDictionary.registerFormat({
   name: "css/deep-variables",
   formatter: CSSVarsFormatter,
@@ -42,9 +44,6 @@ const defaultFile = {
   destination: "default.css",
   options: { showFileHeader: false },
   format: "css/deep-variables",
-  filter: (prop) => {
-    return prop.attributes.type !== "icon";
-  },
 };
 const defaultPlatform = {
   transforms: [
@@ -86,23 +85,6 @@ const config = {
       },
     },
     "CSS: Default with Large Scale": defaultPlatform,
-    "Assets: Icons": {
-      transforms: ["attribute/cti", "name/cti/kebab", "asset/base64"],
-      buildPath: "lib/",
-      prefix: "dse",
-      files: [
-        {
-          destination: "assets_icons.css",
-          format: "css/deep-variables",
-          filter: {
-            attributes: {
-              category: "asset",
-              type: "icon",
-            },
-          },
-        },
-      ],
-    },
   },
 };
 

@@ -1,0 +1,15 @@
+{
+  "course-summary": {
+    "font-family": { "value": "{body.font-family.value}" },
+    "height": { "value": "2rem" },
+    "display": { "value": "inline-flex" },
+    "align-items": { "value": "center" },
+    "box-sizing": { "value": "border-box" },
+    "icon": {
+      "margin-right": { "value": ".5rem" }
+    },
+    "description": {
+      "line-height": { "value": "{body.line-height.value}" }
+    }
+  }
+}

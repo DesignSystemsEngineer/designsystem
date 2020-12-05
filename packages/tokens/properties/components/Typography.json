@@ -1,7 +1,6 @@
 {
   "source-sans-font-family": { "value": "'Source Sans Pro', sans-serif" },
   "heading-font-family": { "value": "{source-sans-font-family.value}" },
-  "body-font-family": { "value": "{source-sans-font-family.value}" },
   "font": {
     "weight": {
       "thin": { "value": "100" },
@@ -26,8 +25,13 @@
     "medium": { "value": "0.06em" }
   },
   "line-height": {
+    "base": { "value": "{line-height.medium.value}" },
     "large": { "value": "1.7" },
     "medium": { "value": "1.5" },
     "small": { "value": "1.3" }
+  },
+  "body": {
+    "line-height": { "value": "{line-height.base.value}" },
+    "font-family": { "value": "{source-sans-font-family.value}" }
   }
 }

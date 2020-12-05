@@ -6,6 +6,6 @@
   @import "@dsengineer/css/lib/grid.css";
 </style>
 
-<div class={`${$$props.class || ''} dse-grid__${colSpan}col`}>
+<div class={`dse-grid__${colSpan}col ${$$props.class || ''}`}>
   <slot />
 </div>

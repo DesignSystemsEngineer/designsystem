@@ -2,6 +2,6 @@
   @import "@dsengineer/css/lib/grid.css";
 </style>
 
-<div class={`${$$props.class || ''} dse-grid`}>
+<div class="dse-grid {$$props.class || ''}">
   <slot />
 </div>

@@ -1,0 +1,60 @@
+{
+  "button": {
+    "description": "Buttons are clickable items used to perform an action.",
+    "font-family": { "value": "{source-sans-font-family.value}" },
+    "font-weight": { "value": "{font.weight.semi-bold.value}" },
+    "font-size": { "value": "1rem" },
+    "color": { "value": "{color.blue.500.value}" },
+    "background-color": { "value": "{color.gray.default.value}" },
+    "border": { "value": "2px solid rgb(20, 115, 230)" },
+    "border-radius": { "value": "6px" },
+    "display": { "value": "inline-flex" },
+    "align-items": { "value": "center" },
+    "box-sizing": { "value": "border-box" },
+    "text-decoration": { "value": "none" },
+    "padding": {
+      "left": { "value": "1rem" },
+      "right": { "value": "1rem" }
+    },
+    "height": { "value": "2rem" },
+    "hover": {
+      "color": { "value": "{color.gray.default.value}" },
+      "background-color": { "value": "{color.blue.500.value}" },
+      "border-color": { "value": "{color.blue.500.value}" }
+    },
+    "active": {
+      "color": { "value": "{color.gray.default.value}" },
+      "background-color": { "value": "{color.blue.700.value}" },
+      "border-color": { "value": "{color.blue.700.value}" }
+    },
+    "focus": {
+      "text-decoration": { "value": "underline" },
+      "outline": { "value": "none" }
+    },
+    "disabled": {
+      "color": { "value": "{color.gray.400.value}" },
+      "background-color": { "value": "{color.gray.100.value}" },
+      "border-color": { "value": "{color.gray.100.value}" }
+    },
+    "icon": {
+      "margin-right": { "value": ".5rem" }
+    },
+    "cta": {
+      "color": { "value": "{color.gray.default.value}" },
+      "background-color": { "value": "{color.blue.500.value}" },
+      "border-color": { "value": "{color.blue.500.value}" },
+      "hover": {
+        "background-color": { "value": "{color.blue.700.value}" },
+        "border-color": { "value": "{color.blue.700.value}" }
+      },
+      "active": {
+        "background-color": { "value": "{color.blue.800.value}" },
+        "border-color": { "value": "{color.blue.800.value}" }
+      }
+    },
+    "large": {
+      "height": { "value": "3rem" },
+      "font-size": { "value": "1.2rem" }
+    }
+  }
+}

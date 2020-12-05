@@ -22,21 +22,17 @@
     "url": "git+ssh://git@github.com/DesignSystemsEngineer/designsystem.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build:docs": "eleventy",
+    "start": "rm -rf _site && npm run build:docs -- --serve"
   },
   "bugs": {
     "url": "https://github.com/DesignSystemsEngineer/designsystem/issues"
   },
   "devDependencies": {
-    "postcss": "^8.1.1",
-    "postcss-nested": "^5.0.1",
-    "rollup-plugin-postcss": "^3.1.8"
+    "@11ty/eleventy": "^0.11.1"
   },
   "dependencies": {
-    "@dsengineer/tokens": "^1.2.2",
-    "postcss": "^8.1.1",
-    "postcss-import": "^12.0.1",
-    "svelte-preprocess": "^4.4.2"
+    "@dsengineer/tokens": "^1.2.2"
   },
   "publishConfig": {
     "access": "public"

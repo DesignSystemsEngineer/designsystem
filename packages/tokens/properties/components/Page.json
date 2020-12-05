@@ -1,0 +1,7 @@
+{
+  "page": {
+    "margin": { "value": "0" },
+    "padding": { "value": "0" },
+    "background-color": { "value": "{color.gray.default.value}" }
+  }
+}

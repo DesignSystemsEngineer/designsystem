@@ -1,0 +1,29 @@
+.dse-course-summary {
+  font-family: var(--dse-course-summary-font-family);
+}
+.dse-course-summary__title {
+  text-decoration: none;
+}
+.dse-course-summary__title:hover {
+  color: var(--dse-color-gray-900);
+}
+.dse-course-summary__description {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+.dse-course-summary__details {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.dse-course-summary__detail {
+  height: var(--dse-course-summary-height);
+  display: var(--dse-course-summary-display);
+  align-items: var(--dse-course-summary-align-items);
+  box-sizing: var(--dse-course-summary-box-sizing);
+}
+
+.dse-icon--course-summary-detail {
+  margin-right: var(--dse-course-summary-icon-margin-right);
+}

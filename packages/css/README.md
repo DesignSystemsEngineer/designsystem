@@ -1,11 +1,17 @@
-# `dsengineer-css`
+# DSE CSS
 
-> TODO: description
+CSS implementation for the Design Systems Engineer design system.
 
-## Usage
+## Local development and testing
+
+1. Install dependencies:
 
 ```
-const dsengineerCss = require('dsengineer-css');
+yarn install
+```
 
-// TODO: DEMONSTRATE API
+1. Start server:
+
+```
+yarn start
 ```
