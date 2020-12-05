@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.0.3...v2.1.0) (2020-12-05)
+
+### Features
+
+- added nav component ([2148129](https://github.com/DesignSystemsEngineer/designsystem/commit/21481298ea8e150ebf67028804ce5d2a5e8f58aa))
+
 ## [2.0.1](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.0.0...v2.0.1) (2020-12-05)
 
 **Note:** Version bump only for package @dsengineer/tokens
