@@ -57,7 +57,3 @@
   height: var(--dse-button-large-height);
   font-size: var(--dse-button-large-font-size);
 }
-
-.dse-button__icon {
-  margin-right: var(--dse-button-icon-margin-right);
-}

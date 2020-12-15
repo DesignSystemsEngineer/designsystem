@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build:docs": "eleventy",
-    "start": "rm -rf _site && npm run build:docs -- --serve"
+    "start": "rm -rf _site && npm run build:docs -- --serve --port=8081"
   },
   "bugs": {
     "url": "https://github.com/DesignSystemsEngineer/designsystem/issues"

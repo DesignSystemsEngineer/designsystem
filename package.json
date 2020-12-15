@@ -9,7 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "lerna bootstrap",
     "build": "lerna run build && lerna run build-storybook",
-    "deploy": "yarn run build && gh-pages -d packages/svelte/storybook-static"
+    "deploy": "yarn run build && gh-pages -d packages/svelte/storybook-static",
+    "watch:css": "lerna run start --parallel --scope @dsengineer/tokens --scope @dsengineer/css",
+    "watch:svelte": "lerna run start --parallel --scope @dsengineer/tokens --scope @dsengineer/svelte",
+    "start": "lerna run start --parallel"
   },
   "repository": {
     "type": "git",

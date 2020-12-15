@@ -6,7 +6,7 @@
     "font-size": { "value": "1rem" },
     "color": { "value": "{color.blue.500.value}" },
     "background-color": { "value": "{color.gray.default.value}" },
-    "border": { "value": "2px solid rgb(20, 115, 230)" },
+    "border": { "value": "2px solid {color.blue.600.value}" },
     "border-radius": { "value": "6px" },
     "display": { "value": "inline-flex" },
     "align-items": { "value": "center" },

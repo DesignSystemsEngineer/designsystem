@@ -1,16 +1,16 @@
-import Input from "../lib/components/Input.svelte";
+import TextInput from "../lib/components/TextInput.svelte";
 import "./utils.css";
 
 export default {
-  title: "Input",
-  component: Input,
+  title: "TextInput",
+  component: TextInput,
   argTypes: {
     inputType: { control: "text" },
   },
 };
 
 const Template = ({ ...args }) => ({
-  Component: Input,
+  Component: TextInput,
   props: args,
 });
 

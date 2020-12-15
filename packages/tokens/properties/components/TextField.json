@@ -1,0 +1,44 @@
+{
+  "TextInput": {
+    "description": "A single-line text input",
+    "box-sizing": { "value": "border-box" },
+    "background-color": { "value": "{color.gray.50.value}" },
+    "border": {
+      "size": { "value": "1px" },
+      "style": { "value": "solid" },
+      "color": { "value": "{color.gray.600.value}" }
+    },
+    "border-radius": { "value": "6px" },
+    "height": { "value": "2rem" },
+    "padding": {
+      "left": { "value": "8px" },
+      "right": { "value": "8px" }
+    },
+    "font-family": { "value": "{source-sans-font-family.value}" },
+    "display": { "value": "inline-flex" },
+    "align-items": { "value": "center" },
+    "hover": {
+      "border": {
+        "size": { "value": "1px" },
+        "style": { "value": "solid" },
+        "color": { "value": "{color.gray.800.value}" }
+      }
+    },
+    "focus": {
+      "outline": { "value": "none" },
+      "border": {
+        "size": { "value": "2px" },
+        "style": { "value": "solid" },
+        "color": { "value": "{color.blue.600.value}" }
+      },
+      "padding": {
+        "left": { "value": "7px" },
+        "right": { "value": "7px" }
+      }
+    },
+    "disabled": {
+      "background-color": { "value": "{color.gray.100.value}" },
+      "border-color": { "value": "{color.gray.400.value}" }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.dse-textinput {
+  background-color: var(--dse-text-input-background-color);
+  box-sizing: var(--dse-text-input-box-sizing);
+  border-radius: var(--dse-text-input-border-radius);
+  border: var(--dse-text-input-border-size) var(--dse-text-input-border-style) var(--dse-text-input-border-color);
+  height: var(--dse-text-input-height);
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: var(--dse-text-input-padding-left);
+  padding-left: var(--dse-text-input-padding-right);
+  font-family: var(--dse-text-input-font-family);
+  display: var(--dse-text-input-display);
+  align-items: var(--dse-text-input-align-items);
+  vertical-align: top;
+}
+.dse-textinput:hover {
+  border-color: var(--dse-text-input-hover-border-color);
+}
+.dse-textinput:focus {
+  outline: var(--dse-text-input-focus-outline);
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: var(--dse-text-input-focus-padding-left);
+  padding-left: var(--dse-text-input-focus-padding-right);
+  border: var(--dse-text-input-focus-border-size) var(--dse-text-input-focus-border-style) var(--dse-text-input-focus-border-color);
+}
+.dse-textinput:disabled {
+  background-color: var(--dse-text-input-disabled-background-color);
+  border-color: var(--dse-text-input-disabled-border-color);
+}
