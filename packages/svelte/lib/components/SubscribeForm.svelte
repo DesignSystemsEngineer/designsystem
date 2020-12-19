@@ -1,5 +1,7 @@
 <script>
-  import { Heading, GridItem, FormField } from "../";
+  import Heading from "./Heading.svelte";
+  import GridItem from "./GridItem.svelte";
+  import FormField from "./FormField.svelte";
 </script>
 
 <style global>
