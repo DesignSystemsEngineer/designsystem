@@ -15,7 +15,7 @@
   export let isLarge = false;
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/course_summary.css";
   @import "@dsengineer/css/lib/typography.css";
 </style>

@@ -2,7 +2,7 @@
   import { Heading, GridItem, FormField } from "../";
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/grid.css";
   @import "@dsengineer/css/lib/subscribe_form.css";
 </style>

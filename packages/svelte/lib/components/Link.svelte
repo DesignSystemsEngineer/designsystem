@@ -5,7 +5,7 @@
   export let target = "_self";
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/link.css";
 </style>
 

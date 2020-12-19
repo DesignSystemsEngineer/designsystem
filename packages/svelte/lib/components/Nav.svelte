@@ -6,7 +6,7 @@
   });
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/nav.css";
 </style>
 

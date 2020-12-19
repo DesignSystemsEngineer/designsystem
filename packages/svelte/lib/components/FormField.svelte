@@ -1,5 +1,6 @@
 <script>
-  import { TextInput, InputLabel } from "../index";
+  import TextInput from "./TextInput.svelte";
+  import InputLabel from "./InputLabel.svelte";
   export let label = "";
   export let isTop = false;
   export let isDisabled = false;
@@ -8,7 +9,7 @@
   export let name = "";
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/form_field.css";
 </style>
 

@@ -3,7 +3,7 @@
   export let iconId = Object.keys(iconData)[0];
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/icon.css";
 </style>
 

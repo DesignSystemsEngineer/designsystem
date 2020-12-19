@@ -1,9 +1,8 @@
 <script>
-  import { InputLabel } from "../index";
   export let forId = false;
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/input_label.css";
 </style>
 

@@ -71,7 +71,7 @@ export const Icon = Template.bind({});
 Icon.args = {
   iconId: "back-chevron",
 };
-console.log(Icon.args);
+
 Icon.parameters = {
   docs: {
     source: {

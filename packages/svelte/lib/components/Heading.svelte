@@ -2,7 +2,7 @@
   export let size = "M";
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/typography.css";
 </style>
 

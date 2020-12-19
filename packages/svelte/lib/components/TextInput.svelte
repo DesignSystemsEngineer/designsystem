@@ -6,7 +6,7 @@
   export let name = "";
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/text_input.css";
 </style>
 

@@ -7,7 +7,7 @@
   export let href = false;
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/button.css";
 </style>
 

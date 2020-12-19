@@ -2,7 +2,7 @@
   export let colSpan = 2;
 </script>
 
-<style>
+<style global>
   @import "@dsengineer/css/lib/grid.css";
 </style>
 
