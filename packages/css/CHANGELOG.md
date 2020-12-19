@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.1.1...v3.0.0) (2020-12-19)
+
+### Features
+
+- added form and link components ([aa34cc8](https://github.com/DesignSystemsEngineer/designsystem/commit/aa34cc89c43e7f597beb50abec7872f2387e7977))
+- initial subscription form ([9d949a5](https://github.com/DesignSystemsEngineer/designsystem/commit/9d949a55a54d62abd7af8f447e752c72542f6655))
+
 # [2.1.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.0.3...v2.1.0) (2020-12-05)
 
 ### Features
