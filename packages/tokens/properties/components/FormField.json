@@ -1,0 +1,30 @@
+{
+  "form-field": {
+    "description": "A label and input container.",
+    "display": { "value": "inline-flex" },
+    "align-items": { "value": "center" },
+    "label": {
+      "margin-right": { "value": "10px" }
+    },
+    "top": {
+      "flex-direct": { "value": "column" },
+      "align-items": { "value": "flex-start" },
+      "label": {
+        "margin": {
+          "right": { "value": "0" },
+          "bottom": { "value": "5px" }
+        }
+      }
+    },
+    "hover": {
+      "label": {
+        "text-decoration": { "value": "underline" }
+      }
+    },
+    "focus-within": {
+      "label": {
+        "color": { "value": "{color.gray.900.value}" }
+      }
+    }
+  }
+}

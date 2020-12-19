@@ -1,0 +1,24 @@
+.dse-form-field {
+  display: var(--dse-form-field-display);
+  align-items: var(--dse-form-field-align-items);
+}
+.dse-form-field__label {
+  margin-right: var(--dse-form-field-label-margin-right);
+}
+.dse-form-field--top {
+  flex-direction: var(--dse-form-field-top-flex-direct);
+  align-items: var(--dse-form-field-top-align-items);
+}
+.dse-form-field--top .dse-form-field__label {
+  margin-right: var(--dse-form-field-top-label-margin-right);
+  margin-bottom: var(--dse-form-field-top-label-margin-bottom);
+}
+.dse-form-field:hover .dse-form-field__label {
+  text-decoration: var(--dse-form-field-hover-label-text-decoration);
+}
+.dse-form-field--disabled:hover .dse-form-field__label {
+  text-decoration: none;
+}
+.dse-form-field:focus-within .dse-form-field__label {
+  color: var(--dse-form-field-focus-within-label-color);
+}

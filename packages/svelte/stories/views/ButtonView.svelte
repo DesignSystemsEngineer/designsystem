@@ -1,6 +1,6 @@
 <script>
-  import Button from "../../lib/components/Button.svelte";
-  export let label = "Button";
+  import { Button } from "../../lib/";
+  export let label;
 </script>
 
-<Button {...$$props}>{label}</Button>
+<Button {...$$props} on:click>{label}</Button>

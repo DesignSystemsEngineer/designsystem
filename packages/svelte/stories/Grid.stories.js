@@ -1,13 +1,13 @@
-import Grid from "./views/GridView.svelte";
+import GridView from "./views/GridView.svelte";
 import "./utils.css";
 
 export default {
   title: "Grid",
-  component: Grid,
+  component: GridView,
 };
 
 const Template = ({ ...args }) => ({
-  Component: Grid,
+  Component: GridView,
   props: args,
 });
 

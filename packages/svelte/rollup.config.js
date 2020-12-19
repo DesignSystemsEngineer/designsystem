@@ -9,6 +9,10 @@ export default {
   output: { file: pkg.main, format: "umd", name: "dsengineer" },
   plugins: [
     svelte({
+      onwarn: (warning, handler) => {
+        if (warning.code === "a11y-label-has-associated-control") return;
+        handler(warning);
+      },
       compilerOptions: {
         generate: "ssr",
         hydratable: true,

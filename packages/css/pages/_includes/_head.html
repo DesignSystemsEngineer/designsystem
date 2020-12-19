@@ -5,17 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
     <link href="/css/page.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link href="/css/default.css" rel="stylesheet" />
-    <link href="/css/medium.css" rel="stylesheet" />
-    <link href="/css/page.css" rel="stylesheet" />
-    <link href="/css/typography.css" rel="stylesheet" />
-    {% for component in components %}
-    <link href="/css/{{ component }}.css" rel="stylesheet" />
+    {% assign stylesheets = "default medium page typography link icon" | concat: components | join: " " | strip | split: " " | uniq %}
+    {% for stylesheet in stylesheets %}
+    <link href="/css/{{ stylesheet }}.css" rel="stylesheet" />
     {% endfor %}
   </head>
   <body class="dse-page"></body>

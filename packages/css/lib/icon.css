@@ -1,15 +1,7 @@
 .dse-icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  position: relative;
-  fill: currentColor;
-}
-
-.dse-button__icon {
-  margin-right: var(--dse-button-icon-margin-right);
-}
-
-.dse-icon--course-summary-detail {
-  margin-right: var(--dse-course-summary-icon-margin-right);
+  display: var(--dse-icon-display);
+  width: var(--dse-icon-width);
+  height: var(--dse-icon-height);
+  position: var(--dse-icon-position);
+  fill: var(--dse-icon-fill);
 }

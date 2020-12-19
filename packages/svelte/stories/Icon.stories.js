@@ -1,4 +1,4 @@
-import Icon from "../lib/components/Icon.svelte";
+import { Icon } from "../lib/";
 import "./utils.css";
 import iconData from "../lib/iconData";
 

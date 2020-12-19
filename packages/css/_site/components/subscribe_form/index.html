@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Icon</title>
+    <title>Subscribe Form</title>
     <link href="/css/page.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin/>
     <link
@@ -25,6 +25,10 @@
     
     <link href="/css/icon.css" rel="stylesheet" />
     
+    <link href="/css/text_input.css" rel="stylesheet" />
+    
+    <link href="/css/button.css" rel="stylesheet" />
+    
   </head>
   <body class="dse-page"></body>
 </html>
@@ -36,21 +40,16 @@
 </header>
 <content>
   
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#play"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#video"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#clock"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#download"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#github"></use>
-</svg>
+<form>
+  <input type="text" name="first_name" required class="dse-textinput" />
+  <input type="email" name="email" required class="dse-textinput" />
+  <input
+    type="submit"
+    name="submit"
+    value="Subscribe"
+    class="dse-button dse-button--cta"
+  />
+</form>
 
 </content>
    </body>

@@ -1,13 +1,10 @@
 <script>
   import Icon from "./Icon.svelte";
-  import { createEventDispatcher } from "svelte";
-  const dispatch = createEventDispatcher();
-
   export let isDisabled = false;
   export let isLarge = false;
   export let isCTA = false;
-  export let iconId;
-  export let href;
+  export let iconId = false;
+  export let href = false;
 </script>
 
 <style>
@@ -19,7 +16,7 @@
     class="dse-button {$$props.class || ''}"
     class:dse-button--cta={isCTA}
     class:dse-button--large={isLarge}
-    disabled={isDisabled}
+    class:dse-button--disabled={isDisabled}
     {href}
     on:click>
     {#if iconId}

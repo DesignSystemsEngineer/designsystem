@@ -1,4 +1,5 @@
 const path = require("path");
+const svelteConfig = require("./svelte.config");
 
 module.exports = ({ config, mode }) => {
   const svelteLoader = config.module.rules.find(
@@ -6,8 +7,7 @@ module.exports = ({ config, mode }) => {
   );
   svelteLoader.options = {
     ...svelteLoader.options,
-    emitCss: true,
-    hotReload: false,
+    ...svelteConfig,
   };
 
   config.module.rules.push(
@@ -17,7 +17,6 @@ module.exports = ({ config, mode }) => {
         {
           loader: "postcss-loader",
           options: {
-            sourceMap: true,
             config: {
               path: "./.storybook/",
             },

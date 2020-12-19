@@ -1,0 +1,35 @@
+.dse-link,
+.dse-link:link,
+.dse-link:visited {
+  color: var(--dse-color-blue-600);
+  text-decoration: none;
+  position: relative;
+  box-sizing: border-box;
+}
+.dse-link:hover {
+  text-decoration: underline;
+}
+.dse-link:active {
+  text-decoration: underline;
+  color: var(--dse-color-gray-800);
+}
+.dse-link:focus,
+.dse-link.is-focused {
+  outline-style: auto;
+  outline-offset: 1px;
+  outline-color: var(--dse-color-blue-200);
+}
+.dse-link__icon {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+.dse-link--icon {
+  display: inline-flex;
+  align-items: center;
+}
+.dse-link--icon .dse-link__icon {
+  vertical-align: unset;
+  bottom: -1px;
+  margin-right: 3px;
+}

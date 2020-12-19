@@ -1,0 +1,10 @@
+{
+  "InputLabel": {
+    "description": "A field label used to describe an input like text field.",
+    "font-family": { "value": "{source-sans-font-family.value}" },
+    "color": { "value": "{color.gray.800.value}" },
+    "disabled": {
+      "color": { "value": "{color.gray.600.value}" }
+    }
+  }
+}

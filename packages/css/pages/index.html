@@ -3,8 +3,14 @@ layout: default.html
 title: Welcome to my blog
 ---
 
-<ul>
-  {% for component in collections.components %}
-  <li><a href="{{ component.url }}">{{ component.data.title }}</a></li>
-  {% endfor %}
-</ul>
+<nav>
+  <ul>
+    {% for component in collections.components %}
+    <li>
+      <a href="{{ component.url }}" class="dse-link"
+        >{{ component.data.title }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

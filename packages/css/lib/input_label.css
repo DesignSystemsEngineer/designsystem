@@ -1,0 +1,9 @@
+.dse-input-label {
+  font-family: var(--dse-input-label-font-family);
+  color: var(--dse-input-label-color);
+}
+
+.dse-input-label--disabled,
+.dse-input-label--disabled:hover {
+  color: var(--dse-input-label-disabled-color);
+}

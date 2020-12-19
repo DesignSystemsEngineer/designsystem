@@ -8,7 +8,7 @@
   padding-top: 0;
   padding-bottom: 0;
   padding-left: var(--dse-text-input-padding-left);
-  padding-left: var(--dse-text-input-padding-right);
+  padding-right: var(--dse-text-input-padding-right);
   font-family: var(--dse-text-input-font-family);
   display: var(--dse-text-input-display);
   align-items: var(--dse-text-input-align-items);
@@ -22,7 +22,7 @@
   padding-top: 0;
   padding-bottom: 0;
   padding-left: var(--dse-text-input-focus-padding-left);
-  padding-left: var(--dse-text-input-focus-padding-right);
+  padding-right: var(--dse-text-input-focus-padding-right);
   border: var(--dse-text-input-focus-border-size)
     var(--dse-text-input-focus-border-style)
     var(--dse-text-input-focus-border-color);

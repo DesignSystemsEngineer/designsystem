@@ -3,5 +3,13 @@
     "icon": {
       "play": { "value": "assets/play-icon.svg" }
     }
+  },
+  "icon": {
+    "description": "Icons used in buttons and other components.",
+    "display": { "value": "inline-block" },
+    "width": { "value": "16px" },
+    "height": { "value": "16px" },
+    "position": { "value": "relative" },
+    "fill": { "value": "currentColor" }
   }
 }

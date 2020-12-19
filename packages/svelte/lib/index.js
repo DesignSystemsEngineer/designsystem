@@ -7,3 +7,7 @@ export { default as Icon } from "./components/Icon.svelte";
 export { default as Input } from "./components/TextInput.svelte";
 export { default as Page } from "./components/Page.svelte";
 export { default as Nav } from "./components/Nav.svelte";
+export { default as FormField } from "./components/FormField.svelte";
+export { default as TextInput } from "./components/TextInput.svelte";
+export { default as InputLabel } from "./components/InputLabel.svelte";
+export { default as Link } from "./components/Link.svelte";

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Icon</title>
+    <title>Link</title>
     <link href="/css/page.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin/>
     <link
@@ -36,21 +36,25 @@
 </header>
 <content>
   
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#play"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#video"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#clock"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#download"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#github"></use>
-</svg>
+<a class="dse-link" href="/" onclick="return false;">This is a link.</a>
+<br /><br />
+<a class="dse-link is-focused" href="/" onclick="return false;"
+  >This is a<br />longer link.</a
+>
+<br /><br />
+<a class="dse-link dse-link--icon" href="/" onclick="return false;">
+  <svg class="dse-icon dse-link__icon">
+    <use xlink:href="/img/icon-sprites.svg#back-chevron"></use>
+  </svg>
+  <span>back</span>
+</a>
+<br /><br />
+<a class="dse-link" href="/" onclick="return false;">
+  <svg class="dse-icon dse-link__icon">
+    <use xlink:href="/img/icon-sprites.svg#back-chevron"></use>
+  </svg>
+  <span>back</span>
+</a>
 
 </content>
    </body>

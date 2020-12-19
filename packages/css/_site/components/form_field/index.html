@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Icon</title>
+    <title>Form Field</title>
     <link href="/css/page.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin/>
     <link
@@ -25,6 +25,12 @@
     
     <link href="/css/icon.css" rel="stylesheet" />
     
+    <link href="/css/text_input.css" rel="stylesheet" />
+    
+    <link href="/css/form_field.css" rel="stylesheet" />
+    
+    <link href="/css/input_label.css" rel="stylesheet" />
+    
   </head>
   <body class="dse-page"></body>
 </html>
@@ -36,21 +42,27 @@
 </header>
 <content>
   
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#play"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#video"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#clock"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#download"></use>
-</svg>
-<svg class="dse-icon">
-  <use xlink:href="/img/icon-sprites.svg#github"></use>
-</svg>
+<div>
+  <label class="dse-form-field">
+    <span class="dse-input-label dse-form-field__label">Input Label:</span>
+    <input type="text" name="name" required class="dse-textinput" />
+  </label>
+</div>
+<div>
+  <label class="dse-form-field dse-form-field--top">
+    <span class="dse-input-label dse-form-field__label">Input Label:</span>
+    <input type="text" name="name" required class="dse-textinput" />
+  </label>
+</div>
+<div>
+  <label class="dse-form-field dse-form-field--disabled">
+    <span
+      class="dse-input-label dse-form-field__label dse-input-label--disabled"
+      >Input Label:</span
+    >
+    <input type="text" name="name" required class="dse-textinput" disabled />
+  </label>
+</div>
 
 </content>
    </body>

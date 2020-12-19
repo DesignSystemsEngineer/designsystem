@@ -1,0 +1,30 @@
+---
+title: Form Field
+slug: form_field
+components:
+  - text_input
+  - form_field
+  - input_label
+---
+
+<div>
+  <label class="dse-form-field">
+    <span class="dse-input-label dse-form-field__label">Input Label:</span>
+    <input type="text" name="name" required class="dse-textinput" />
+  </label>
+</div>
+<div>
+  <label class="dse-form-field dse-form-field--top">
+    <span class="dse-input-label dse-form-field__label">Input Label:</span>
+    <input type="text" name="name" required class="dse-textinput" />
+  </label>
+</div>
+<div>
+  <label class="dse-form-field dse-form-field--disabled">
+    <span
+      class="dse-input-label dse-form-field__label dse-input-label--disabled"
+      >Input Label:</span
+    >
+    <input type="text" name="name" required class="dse-textinput" disabled />
+  </label>
+</div>

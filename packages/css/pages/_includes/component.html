@@ -3,5 +3,12 @@ layout: default.html
 title: My Rad Blog
 tags: ["components"]
 ---
-
-{{ content | safe }}
+<header>
+  <a href="/" class="dse-link">
+    <svg class="dse-icon dse-link__icon">
+      <use xlink:href="/img/icon-sprites.svg#back-chevron"></use>
+    </svg><span>Back to index</span></a>
+</header>
+<content>
+  {{ content | safe }}
+</content>

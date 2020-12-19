@@ -1,0 +1,35 @@
+{
+  "link": {
+    "description": "A link and icon variant",
+    "color": { "value": "{color.blue.600.value}" },
+    "text-decoration": { "value": "none" },
+    "position": { "value": "relative" },
+    "box-sizing": { "value": "border-box" },
+    "hover": {
+      "text-decoration": { "value": "underline" }
+    },
+    "active": {
+      "text-decoration": { "value": "underline" },
+      "color": { "value": "{color.blue.800.value}" }
+    },
+    "focus": {
+      "outline-style": { "value": "auto" },
+      "outline-offset": { "value": "1px" },
+      "outline-color": { "value": "{color.blue.200.value}" }
+    },
+    "icon": {
+      "vertical-align": { "value": "middle" },
+      "position": { "value": "relative" },
+      "bottom": { "value": "1px" }
+    },
+    "icon-variant": {
+      "display": { "value": "inline-flex" },
+      "align-items": { "value": "center" },
+      "icon": {
+        "vertical-align": { "value": "unset" },
+        "bottom": { "value": "-1px" },
+        "margin-right": { "value": "3px" }
+      }
+    }
+  }
+}

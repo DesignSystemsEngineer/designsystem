@@ -1,11 +1,26 @@
-import TextInput from "../lib/components/TextInput.svelte";
+import { TextInput } from "../lib/";
 import "./utils.css";
 
 export default {
   title: "TextInput",
   component: TextInput,
   argTypes: {
-    inputType: { control: "text" },
+    inputType: {
+      control: {
+        type: "select",
+        options: [
+          "text",
+          "date",
+          "email",
+          "number",
+          "password",
+          "search",
+          "tel",
+          "time",
+          "url",
+        ],
+      },
+    },
   },
 };
 

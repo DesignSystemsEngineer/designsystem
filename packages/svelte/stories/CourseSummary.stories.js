@@ -1,4 +1,4 @@
-import CourseSummary from "../lib/components/CourseSummary.svelte";
+import { CourseSummary } from "../lib/";
 import "./utils.css";
 
 export default {

@@ -1,6 +1,5 @@
 <script>
-  import Grid from "../../lib/components/Grid.svelte";
-  import GridItem from "../../lib/components/GridItem.svelte";
+  import { Grid, GridItem } from "../../lib/";
 </script>
 
 <style>

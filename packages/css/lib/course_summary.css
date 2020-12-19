@@ -63,3 +63,7 @@
   align-items: var(--dse-course-summary-align-items);
   box-sizing: var(--dse-course-summary-box-sizing);
 }
+
+.dse-icon--course-summary-detail {
+  margin-right: var(--dse-course-summary-icon-margin-right);
+}

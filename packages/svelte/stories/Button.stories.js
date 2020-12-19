@@ -6,16 +6,71 @@ export default {
   title: "Button",
   component: ButtonView,
   argTypes: {
-    label: { control: "text" },
-    isCTA: { control: "boolean" },
-    isLarge: { control: "boolean" },
-    isDisabled: { control: "boolean" },
-    iconId: { control: { type: "select", options: Object.keys(iconData) } },
+    label: {
+      description: "The label displayed on the button.",
+      control: "text",
+      defaultValue: "Button",
+      type: { name: "string", required: true },
+      table: {
+        category: "Button contents",
+        type: { summary: "string" },
+      },
+    },
+    isCTA: {
+      description: "Makes the button more distinct for calls to action.",
+      control: "boolean",
+      defaultValue: false,
+      type: { name: "boolean", required: false },
+      table: {
+        category: "Modifier",
+        type: { summary: "boolean" },
+        defaultValue: { summary: false },
+      },
+    },
+    isLarge: {
+      description: "Makes button larger.",
+      control: "boolean",
+      defaultValue: false,
+      type: { name: "boolean", required: false },
+      table: {
+        category: "Modifier",
+        type: { summary: "boolean" },
+        defaultValue: { summary: false },
+      },
+    },
+    isDisabled: {
+      description: "Disables button.",
+      control: "boolean",
+      defaultValue: false,
+      type: { name: "boolean", required: false },
+      table: {
+        category: "Modifier",
+        type: { summary: "boolean" },
+        defaultValue: { summary: false },
+      },
+    },
+    iconId: {
+      description: "Displays an icon.",
+      control: { type: "select", options: [false, ...Object.keys(iconData)] },
+      defaultValue: false,
+      type: { name: "enum", required: false },
+      table: {
+        category: "Button contents",
+        type: {
+          summary: `false | "${Object.keys(iconData).join('" | "')}"`,
+        },
+        defaultValue: { summary: false },
+      },
+    },
   },
   parameters: {
     docs: {
       description: {
-        component: "some component _markdown_",
+        component: "Buttons are clickable items used to perform an action.",
+      },
+      source: {
+        language: "css",
+        code: "<Button {...$$props}>{label}</Button>",
       },
     },
   },
@@ -59,7 +114,7 @@ Icon.args = {
 
 export const Link = Template.bind({});
 Link.args = {
-  href: "#",
+  href: "/",
   on: {
     click: (e) => {
       e.preventDefault();
