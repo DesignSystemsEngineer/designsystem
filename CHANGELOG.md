@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.2](https://github.com/DesignSystemsEngineer/designsystem/compare/v3.0.1...v3.0.2) (2020-12-19)
+
+### Bug Fixes
+
+- removed circular dependency ([d4238e8](https://github.com/DesignSystemsEngineer/designsystem/commit/d4238e8c6c107eb38a75497e7f2783287375adfe))
+
 ## [3.0.1](https://github.com/DesignSystemsEngineer/designsystem/compare/v3.0.0...v3.0.1) (2020-12-19)
 
 ### Bug Fixes
