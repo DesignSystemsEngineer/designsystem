@@ -7,8 +7,9 @@ export default {
   component: FormField,
   argTypes: {
     label: { control: "text", defaultValue: "Label:" },
-    isTop: { name: "top", control: "boolean" },
-    isDisabled: { name: "disabled", control: "boolean" },
+    isTop: { control: "boolean" },
+    isFullWidth: { control: "boolean" },
+    isDisabled: { control: "boolean" },
   },
 };
 

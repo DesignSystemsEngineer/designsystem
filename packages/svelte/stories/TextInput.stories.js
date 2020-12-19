@@ -5,6 +5,9 @@ export default {
   title: "TextInput",
   component: TextInput,
   argTypes: {
+    isRequired: { control: { type: "boolean" } },
+    isDisabled: { control: { type: "boolean" } },
+    isFullWidth: { control: { type: "boolean" } },
     inputType: {
       control: {
         type: "select",
@@ -35,4 +38,8 @@ Text.args = {};
 export const Number = Template.bind({});
 Number.args = {
   inputType: "number",
+};
+export const FullWidth = Template.bind({});
+FullWidth.args = {
+  isFullWidth: true,
 };

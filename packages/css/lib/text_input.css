@@ -31,3 +31,6 @@
   background-color: var(--dse-text-input-disabled-background-color);
   border-color: var(--dse-text-input-disabled-border-color);
 }
+.dse-textinput--full-width {
+  width: 100%;
+}

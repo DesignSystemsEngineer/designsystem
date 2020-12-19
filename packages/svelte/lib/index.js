@@ -11,3 +11,4 @@ export { default as FormField } from "./components/FormField.svelte";
 export { default as TextInput } from "./components/TextInput.svelte";
 export { default as InputLabel } from "./components/InputLabel.svelte";
 export { default as Link } from "./components/Link.svelte";
+export { default as SubscribeForm } from "./components/SubscribeForm.svelte";
