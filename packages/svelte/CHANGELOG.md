@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/DesignSystemsEngineer/designsystem/compare/v3.0.0...v3.0.1) (2020-12-19)
+
+### Bug Fixes
+
+- global styles in svelte output ([e10de49](https://github.com/DesignSystemsEngineer/designsystem/commit/e10de494cccd9a607a2cc19952779d772da4dbf2))
+
 # [3.0.0](https://github.com/DesignSystemsEngineer/designsystem/compare/v2.1.1...v3.0.0) (2020-12-19)
 
 ### Features
